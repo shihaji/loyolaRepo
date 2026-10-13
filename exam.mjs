@@ -12,6 +12,15 @@ let multiply=(a,b)=>{
     return a*b;
 }
 
-export default add;  // default export 
+let findMax=(a,b)=>{
+    if(a>b){
+        return a;
+    }else{
+        return b;
+    }
+}
 
-export {subtract,multiply};  // named export 
+export default add;  // default export  
+
+
+export {subtract,multiply,findMax};  // named export 
