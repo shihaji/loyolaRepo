@@ -1,5 +1,7 @@
  // ES6 MODULE
 
+ console.log("hello from dev branch")
+
 let add=(a,b)=>{
     return a+b;
 }
