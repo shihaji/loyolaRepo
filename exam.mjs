@@ -13,12 +13,22 @@ let multiply=(a,b)=>{
 }
 
 let findMax=(a,b)=>{
-    if(a>b){
+    if(a>b){ 
         return a;
     }else{
         return b;
     }
 }
+
+let findMin=(a,b)=>{
+    if(a<b){
+        return a;
+    }else{
+        return b;
+    }
+}
+
+
 
 export default add;  // default export  
 
